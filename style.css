@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+
+body{
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+header, footer, .btn{
+	background-color: #32618d;
+}
+
+input{
+	border-radius: 5px;
+	text-align: center;
+	font-size: 10px;
+	margin: 10px;
+	width: 100%;
+	height: 30px;
+}
+
+.btn{
+	color: white;
+	font-size: 10px;
+	height: 30px;
+	width: 120px;
+	border-radius: 5px;
+	margin-top: 10px;
+	float: right;
+}
+
+.menu{
+	font-size: 12px;
+	color: #32618d;
+	margin: 15px;
+	padding: 5px;
+	float: left;
+	text-decoration: none;
+}
+
+.menu:hover{
+	text-decoration: underline;
+}
+
+.foto{
+	width: 100%;
+}
+
+.oferta, .cont{
+	font-size: 20px;
+	padding: 10px;
+}
+
+.oferta{
+	color: #32618d;
+}
+
+.t-1{
+	font-size: 12px;
+	margin: 5px;
+	padding-top: 5px;
+}
+
+.t-2{
+	font-size: 10px;
+	color: #cdcdcd;
+	margin: 5px;
+}
+
+.linea{
+	color: green;
+	font-size: 8px;
+	padding-bottom: 2px;
+}
+
+.seccion{
+	width: 20%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;	
+	float: left;
+	border: solid 1px #cdcdcd;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.centrar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cont{
+	background-color: #8d9ebe;
+	color: white;
+}
+
+footer{
+	color: #ecb60e;
+	padding: 20px;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 1024px){
+	.columna-po{
+		padding: 10%;
+		padding-top: 0;
+		flex-direction: column!important;
+	}
+
+	.voltear{
+		flex-direction: column-reverse!important;
+	}
+
+	.ajustar{
+		float: none;
+	}
+
+	.seccion{
+		margin-bottom: 5%;
+	}
+
+	.aaaaa{
+		padding: 0!important;
+		margin: 0%!important;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	*{
+		width: 100%!important;
+	}
+}
